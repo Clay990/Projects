@@ -1,0 +1,81 @@
+* {
+  
+}
+body {
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    background-color: rgb(9, 16, 48);
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0px;
+    margin-top: 10px;
+    display: inline-block;
+    color: white;
+}
+
+#rpc {
+    margin-top: 10vh;
+    text-align: center;
+
+}
+
+img {
+height: 100px;
+width: 100px;
+object-fit: cover;
+border-radius: 50%;
+border: 4px solid rgb(255, 255, 255);
+margin-left: 20px;
+margin-right: 20px;
+}
+
+#view {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+img:hover {
+    border: 4px solid rgb(255, 230, 0);
+}
+
+h3 {
+    margin-bottom: 0%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0%;
+    
+}
+#win {
+
+    animation-name: win;
+    animation-duration: 0.4s;
+}
+#loss {
+
+    animation-name: loss;
+    animation-duration: 0.4s;
+}
+  @keyframes win {
+    0%   {border: solid 4px rgb(0, 255, 0);}
+    25%  {border: solid 4px white;}
+    50%  {border: solid 4px rgb(0, 255, 0);}
+    100% {border: solid 4px white;}
+  }
+
+  @keyframes loss {
+    0%   {border: solid 4px rgb(255, 0, 0);}
+    25%  {border: solid 4px white;}
+    50%  {border: solid 4px rgb(255, 0, 0);}
+    100% {border: solid 4px white;}
+  }
