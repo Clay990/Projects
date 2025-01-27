@@ -5,7 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+    <style>
+    #projectContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    min-width: 200px;
+    min-height: 120px;
+}
+
+.project {
+    width: 200px;
+    height: 120px;
+    border: 3px solid rgb(254, 227, 255);
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+#project1 {
+    background-image: url("img/Project1.png");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+
+}
+#project2 {
+    background-image: url("img/Project2.png");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+#project3 {
+    background-image: url("img/Project3.png");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+
+}
+</style>
 <body>
-    <a href="Rock Paper/index.html">hi</a>
+    <h2>Projects</h2>
+        <div id="projectContainer">
+            <a href="http://"><div class="project" id="project1"></div>Rock paper</a>
+            <a href="http://"><div class="project" id="project2"></div>Weather</a>
+            <a href="http://"><div class="project" id="project3"></div>Portfolio</a>
+            <a href="http://" hidden><div class="project" id="project4"></div>none</a>
+            <a href="http://" hidden><div class="project" id="project5"></div>none</a>
+        </div><h2>Projects</h2>
+        <div id="projectContainer">
+            <a href="http://"><div class="project" id="project1"></div>Rock paper</a>
+            <a href="http://"><div class="project" id="project2"></div>Weather</a>
+            <a href="http://"><div class="project" id="project3"></div>Portfolio</a>
+            <a href="http://" hidden><div class="project" id="project4"></div>none</a>
+            <a href="http://" hidden><div class="project" id="project5"></div>none</a>
+        </div>
 </body>
 </html>
