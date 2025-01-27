@@ -1,0 +1,114 @@
+* {
+    font-family: "Indie Flower", serif;
+}
+
+body{
+    min-height: 1000px;
+    background-color: #d4ffdf;
+}
+#header {
+    height: 5vh;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#headright {
+
+    display: inline;
+    text-decoration: none;
+    position: sticky;
+    left: 100vw;
+}
+
+#headleft {
+
+    display: inline;
+    position: sticky;
+    right: 100vw;
+}
+
+#dark {
+ 
+    height: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.link {
+    margin-right: 20px;
+}
+
+main {
+    height: 93vh;
+    text-align: center;
+}
+
+#pfp {
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#name {
+    font-size: 25px;
+}
+
+#about {
+    font-size: 22px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+hr {
+    margin-top: 50px;
+    border: 2px solid;
+    color: rgba(255, 131, 131, 0.438);
+}
+
+#projectContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    min-width: 200px;
+    min-height: 120px;
+}
+
+.project {
+    width: 200px;
+    height: 120px;
+    border: 3px solid rgb(254, 227, 255);
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+#project1 {
+    background-image: url("img/Project1.png");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+
+}
+#project2 {
+    background-image: url("img/Project2.png");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+#project3 {
+    background-image: url("img/Project3.png");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+
+}
