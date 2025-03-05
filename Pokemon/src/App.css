@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #ff4d88;
+  padding: 10px;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  width: 150px;
+  text-align: center;
+
+}
+.searcard {
+  border: 3px solid #ffb6cf;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  width: 200px;
+  text-align: center;
+  display: inline-block;
+}
+.searimg {
+  height: 150px;
+  width: 150px;
+}
+img {
+    height: 100px;
+    width: 100px;
+    
+}
+iframe {
+  height: 100px;
+  width: 100px;
+  border: white;
+  color: white;
+  background-color: white;
+  cursor: alias;
+}
+.more {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+#pokecount {
+font-size: medium;
+  padding: 10px 20px;
+display: flex;
+color: #ff6fa1;
+}
+
+.search {
+  width: 50%;
+  position: relative;
+  display: flex;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.searchTerm {
+  width: 100%;
+  border: 3px solid #ffb6cf;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #000000;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #ffb6cf;
+  background: #ffb6cf;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
