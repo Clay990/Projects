@@ -16,21 +16,21 @@ function App() {
             {/* Image size much be 1024x640 */}
             <a href="https://clay990.github.io/Projects/Rock%20Paper">
               <div className="card">
-                <img src="./public/img/rock.png" alt="rock" />
+                <img src="/img/rock.png" alt="rock" />
                 <h3>Rock Paper Scissor</h3>
               </div>
             </a>
             <a href="https://clay990.github.io/Projects/Weather%20site/">
               
               <div className="card">
-                <img src="./public/img/weather.png" alt="weather" />
+                <img src="/img/weather.png" alt="weather" />
                 <h3>Weather using API</h3>
               </div>
             </a>
             <a href="https://projects-lac-six.vercel.app/">
               
               <div className="card">
-                <img src="./public/img/todo.png" alt="todo" />
+                <img src="/img/todo.png" alt="todo" />
                 <h3>Todo App</h3>
               </div>
             </a>
@@ -41,7 +41,7 @@ function App() {
           <div className="content">
             <a href="https://pokemon-self-omega.vercel.app">
               <div className="card">
-                <img src="./public/img/pokemon.png" alt="pokemon" />
+                <img src="/img/pokemon.png" alt="pokemon" />
                 <h3>Pokemon using API</h3>
               </div>
             </a>
